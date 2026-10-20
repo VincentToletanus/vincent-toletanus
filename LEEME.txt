@@ -1,0 +1,33 @@
+VINCENT TOLETANUS — WEB PERSONAL
+=================================
+
+Incluye una web de una sola página, adaptable a móviles y con estética cinematográfica en blanco y negro.
+
+ARCHIVOS
+- index.html: contenido de la web.
+- style.css: diseño y estilos.
+- script.js: menú móvil y año automático.
+- assets/: incluye tus tres fotografías y el videobook MP4 ya integrado en la web.
+
+ANTES DE PUBLICAR
+1. Abre index.html en tu navegador para ver una vista previa.
+2. Tus tres fotografías ya están integradas en la galería. Si quieres cambiarlas o reordenarlas, edita las etiquetas <img> de la sección Fotografías en index.html.
+3. Tu videobook ya está integrado y se reproduce desde el archivo MP4 incluido en assets. Ten en cuenta que el vídeo aumenta el tamaño total de la web; para una publicación más ligera, se puede alojar en YouTube o Vimeo e insertar el reproductor.
+4. Comprueba el correo y el enlace de Instagram.
+5. Si no quieres mostrar la edad interpretativa en público, elimina esa fila en index.html.
+
+PUBLICACIÓN GRATUITA CON GITHUB PAGES
+1. Crea una cuenta gratuita en GitHub si no tienes una.
+2. Crea un repositorio público llamado, por ejemplo, vincent-toletanus.
+3. Sube index.html, style.css, script.js y la carpeta assets al nivel principal del repositorio.
+4. En el repositorio, entra en Settings → Pages.
+5. En “Build and deployment”, elige “Deploy from a branch”, selecciona la rama “main” y la carpeta “/(root)”, y guarda.
+6. GitHub mostrará la dirección pública de tu web cuando termine de publicarla.
+
+La dirección será similar a https://tuusuario.github.io/vincent-toletanus/ (el usuario y el nombre del repositorio determinan la dirección).
+La publicación no se ha realizado todavía: estos son los archivos preparados para subir.
+
+NOTAS
+- Google Fonts requiere conexión a Internet; si no está disponible, se usarán fuentes de respaldo.
+- No subas documentos privados ni datos que no quieras hacer públicos.
+- Las imágenes y el videobook no están incluidos todavía porque debes facilitar tus archivos o enlaces.
