@@ -54,19 +54,7 @@
     width: 100%;
   }
 }
-/* ========================================
-   VINCENT TOLETANUS — ESTÉTICA CINEMATOGRÁFICA
-   Mejoras visuales añadidas sin sustituir
-   los estilos originales.
-   ======================================== */
 
-:root {
-  --gold: #c5a46d;
-  --gold-light: #dfc79c;
-  --ivory: #f2eee6;
-  --charcoal: #151515;
-  --muted: #b4aea3;
-}
 
 /* Base y desplazamiento */
 html {
@@ -277,4 +265,17 @@ footer {
   *::after {
     transition-duration: 0.01ms !important;
   }
+}
+/* ========================================
+   VINCENT TOLETANUS — ESTÉTICA CINEMATOGRÁFICA
+   Mejoras visuales añadidas sin sustituir
+   los estilos originales.
+   ======================================== */
+
+:root {
+  --gold: #c5a46d;
+  --gold-light: #dfc79c;
+  --ivory: #f2eee6;
+  --charcoal: #151515;
+  --muted: #b4aea3;
 }
