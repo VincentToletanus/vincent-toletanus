@@ -54,3 +54,227 @@
     width: 100%;
   }
 }
+/* ========================================
+   VINCENT TOLETANUS — ESTÉTICA CINEMATOGRÁFICA
+   Mejoras visuales añadidas sin sustituir
+   los estilos originales.
+   ======================================== */
+
+:root {
+  --gold: #c5a46d;
+  --gold-light: #dfc79c;
+  --ivory: #f2eee6;
+  --charcoal: #151515;
+  --muted: #b4aea3;
+}
+
+/* Base y desplazamiento */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--charcoal);
+  color: var(--ivory);
+}
+
+/* Cabecera y navegación */
+.site-header {
+  background: #101010;
+  border-bottom: 1px solid rgba(197, 164, 109, 0.22);
+}
+
+.wordmark span {
+  color: var(--gold);
+}
+
+.nav a {
+  transition: color 0.25s ease, opacity 0.25s ease;
+}
+
+.nav a:hover,
+.nav a:focus-visible {
+  color: var(--gold-light);
+  opacity: 1;
+}
+
+/* Portada cinematográfica */
+.hero {
+  background: #111;
+}
+
+.hero:before {
+  background:
+    radial-gradient(
+      ellipse at 76% 40%,
+      #35312a 0%,
+      #202020 35%,
+      #101010 72%
+    );
+}
+
+.hero-shade {
+  background: linear-gradient(
+    90deg,
+    rgba(10, 10, 10, 0.9) 0%,
+    rgba(10, 10, 10, 0.5) 55%,
+    rgba(10, 10, 10, 0.08) 100%
+  );
+}
+
+.hero .eyebrow {
+  color: var(--gold-light);
+}
+
+.hero h1 em {
+  color: var(--gold-light);
+}
+
+.hero-copy {
+  color: #ded8ce;
+}
+
+.hero-caption {
+  color: var(--gold-light);
+}
+
+/* Botones */
+.button {
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.button-light {
+  background: var(--gold);
+  color: #17130d;
+}
+
+.button-light:hover,
+.button-light:focus-visible {
+  background: var(--gold-light);
+  transform: translateY(-2px);
+}
+
+/* Presentación */
+.intro {
+  background: #171717;
+}
+
+.intro h2,
+.section-heading h2,
+.bio-grid h2,
+.contact-section h2 {
+  color: var(--ivory);
+}
+
+.intro .eyebrow,
+.section-heading .eyebrow,
+.bio-grid .eyebrow,
+.contact-section .eyebrow {
+  color: var(--gold);
+}
+
+.intro-text {
+  color: #c3bdb2;
+}
+
+/* Videobook */
+.video-section {
+  background: #101010;
+  border-top: 1px solid #29251f;
+  border-bottom: 1px solid #29251f;
+}
+
+.media-placeholder {
+  border-color: rgba(197, 164, 109, 0.35);
+}
+
+.play-icon {
+  border-color: var(--gold);
+  color: var(--gold-light);
+}
+
+/* Fotografías */
+.gallery-section {
+  background: #171717;
+}
+
+.gallery-item figcaption {
+  color: var(--gold-light);
+}
+
+.small-note {
+  color: #b4aea3;
+}
+
+/* Biografía */
+.bio-section {
+  background: #201e1a;
+}
+
+.bio-copy > p {
+  color: #d0c9bd;
+}
+
+.facts {
+  border-color: #494136;
+}
+
+.facts div {
+  border-color: #494136;
+}
+
+.facts span {
+  color: var(--gold-light);
+}
+
+.facts strong {
+  color: var(--ivory);
+}
+
+/* Contacto */
+.contact-section {
+  background: #151515;
+}
+
+.contact-section > p:not(.eyebrow) {
+  color: #c3bdb2;
+}
+
+.email-link {
+  color: var(--ivory);
+  border-color: rgba(197, 164, 109, 0.5);
+  transition: color 0.25s ease;
+}
+
+.email-link:hover,
+.email-link:focus-visible,
+.social-link:hover,
+.social-link:focus-visible {
+  color: var(--gold-light);
+}
+
+.social-link {
+  border-color: var(--gold);
+}
+
+/* Pie de página */
+footer {
+  background: #0c0c0c;
+  border-top: 1px solid rgba(197, 164, 109, 0.2);
+}
+
+/* Accesibilidad: movimiento reducido */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+  }
+}
