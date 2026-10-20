@@ -279,3 +279,55 @@ footer {
   --charcoal: #151515;
   --muted: #b4aea3;
 }
+/* Refinamiento cinematográfico de la portada */
+
+.hero {
+  isolation: isolate;
+  background-color: #111;
+}
+
+.hero:before {
+  background:
+    radial-gradient(
+      ellipse at 76% 42%,
+      rgba(130, 101, 57, 0.24) 0%,
+      rgba(45, 38, 29, 0.18) 28%,
+      #111 72%
+    );
+}
+
+.hero-shade {
+  background: linear-gradient(
+    90deg,
+    rgba(12, 12, 12, 0.94) 0%,
+    rgba(12, 12, 12, 0.72) 42%,
+    rgba(12, 12, 12, 0.12) 100%
+  );
+}
+
+.hero .eyebrow {
+  letter-spacing: 0.2em;
+}
+
+.hero h1 {
+  text-shadow: 0 4px 30px rgba(0, 0, 0, 0.22);
+}
+
+.hero .button-light {
+  border: 1px solid #c5a46d;
+  box-shadow: 0 5px 24px rgba(0, 0, 0, 0.18);
+}
+
+.hero .button-light:hover {
+  box-shadow: 0 8px 28px rgba(197, 164, 109, 0.16);
+}
+
+@media (max-width: 700px) {
+  .hero-shade {
+    background: linear-gradient(
+      90deg,
+      rgba(12, 12, 12, 0.82),
+      rgba(12, 12, 12, 0.48)
+    );
+  }
+}
