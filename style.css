@@ -406,3 +406,13 @@ footer {
     );
   }
 }
+
+/* Botón del videobook más compacto en móviles */
+@media (max-width: 700px) {
+  .hero .button-light {
+    font-size: 0.82rem;
+    padding: 0.65rem 0.9rem;
+    margin-top: 0.25rem;
+    white-space: nowrap;
+  }
+}
