@@ -453,3 +453,24 @@ footer {
     max-width: 88% !important;
   }
 }
+
+
+/* Nombre real y nombre artístico de Vincent */
+.hero .hero-real-name {
+  font-family: "DM Sans", Arial, sans-serif;
+  font-size: clamp(2rem, 4.2vw, 3.8rem);
+  line-height: 1.12;
+  letter-spacing: -0.035em;
+  font-weight: 500;
+  margin: 0 0 0.35em;
+  overflow-wrap: break-word;
+}
+
+.hero .hero-stage-name {
+  font-family: "Playfair Display", Georgia, serif;
+  color: var(--gold-light, #c5a66b);
+  font-size: clamp(1.5rem, 3.2vw, 2.7rem);
+  line-height: 1.15;
+  letter-spacing: 0.035em;
+  margin: 0 0 0.8em;
+}
