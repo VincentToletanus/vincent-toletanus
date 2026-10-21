@@ -312,7 +312,22 @@ footer {
 .hero h1 {
   text-shadow: 0 4px 30px rgba(0, 0, 0, 0.22);
 }
+.hero .hero-real-name {
+  font-size: clamp(2rem, 4.2vw, 3.8rem);
+  line-height: 1.12;
+  letter-spacing: -0.035em;
+  margin-bottom: 0.35em;
+}
 
+.hero .hero-stage-name {
+  font-family: "Playfair Display", Georgia, serif;
+  color: var(--gold-light);
+  font-size: clamp(1.8rem, 3.5vw, 3rem);
+  line-height: 1.15;
+  letter-spacing: 0.035em;
+  margin-top: 0;
+  margin-bottom: 0.6em;
+}
 .hero .button-light {
   border: 1px solid #c5a46d;
   box-shadow: 0 5px 24px rgba(0, 0, 0, 0.18);
