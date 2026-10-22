@@ -475,8 +475,9 @@ footer {
   margin: 0 0 0.8em;
 }
 /* Botón de contacto de la portada */
-.button-contact {
+.hero .button-contact {
   background: transparent;
   color: var(--gold);
   border: 1px solid var(--gold);
+  box-sizing: border-box;
 }
